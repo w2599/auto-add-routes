@@ -33,7 +33,12 @@ cidr_3=224.0.0.0
 cidr_2=192.0.0.0
 cidr_1=128.0.0.0
 
-curl -o ./china_ip_list.txt "https://raw.githubusercontent.com/17mon/china_ip_list/master/china_ip_list.txt"
+qqwry="$(curl -kLfsm 5 https://raw.githubusercontent.com/metowolf/iplist/master/data/special/china.txt)"
+ipipnet="$(curl -kLfsm 5 https://raw.githubusercontent.com/17mon/china_ip_list/master/china_ip_list.txt)"
+clang="$(curl -kLfsm 5 https://ispip.clang.cn/all_cn.txt)"
+iplist="$qqwry\n$ipipnet\n$clang"
+echo -e "${iplist}" | sort | uniq > china_ip_list.txt
+
 
 function cnip(){
 	result=$(md5sum ./china_ip_list.txt)

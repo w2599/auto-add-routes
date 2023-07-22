@@ -1,4 +1,4 @@
-![]( https://visitor-badge.glitch.me/badge?page_id=lmc999_add_route)
+![]( https://visitor-badge.glitch.me/badge?page_id=w2599_add_route)
 # auto-add-routes
 
 ## 介绍
@@ -19,7 +19,7 @@ cmroute.dll会被上述批处理文件调用，作用是秒载/秒删路由表�
 Overture使用方法可以参考：https://moe.best/tutorial/overture.html
 
 ## 分流原理
-[请参考wiki](https://github.com/lmc999/auto-add-routes/wiki)
+[请参考wiki](https://github.com/w2599/auto-add-routes/wiki)
 
 ## 使用方法
 
@@ -34,14 +34,13 @@ reg add HKLM\Software\WireGuard /v DangerousScriptExecution /t REG_DWORD /d 1 /f
 ````
 ![Snipaste_2021-12-24_10-02-19.jpg](https://s2.loli.net/2021/12/24/y6SwJj1uZmdhF7E.jpg)
 
-#### 3. 下载[此页面](https://github.com/lmc999/auto-add-routes/tree/master/wireguard)中的所有文件到"C:\Program Files\WireGuard\bat"。或者直接下载解压此[压缩档](https://github.com/lmc999/auto-add-routes/blob/master/zip/wireguard.zip)
+#### 3. 下载[此页面](https://github.com/w2599/auto-add-routes/tree/master/wireguard)中的所有文件到"C:\Program Files\WireGuard\bat"。或者直接下载解压此[压缩档](https://github.com/w2599/auto-add-routes/blob/master/zip/wireguard.zip)
 ![Snipaste_2021-12-24_14-39-56.jpg](https://s2.loli.net/2021/12/24/bQfW1dVRAJBnge5.jpg)
 
 #### 4. 修改Wireguard客户端配置文件，加入以下Script Hook调用"C:\Program Files\WireGuard\bat"的批处理文件
 
 
     PreUp = "C:\Program Files\WireGuard\bat\routes-up.bat"
-    PostUp = "C:\Program Files\WireGuard\bat\dns-up.bat"
     PreDown = "C:\Program Files\WireGuard\bat\routes-down.bat"
     PostDown = "C:\Program Files\WireGuard\bat\dns-down.bat"
 
@@ -60,7 +59,7 @@ reg add HKLM\Software\WireGuard /v DangerousScriptExecution /t REG_DWORD /d 1 /f
 
 ### Openvpn
 
-#### 1. 下载[openvpn.zip](https://github.com/lmc999/auto-add-routes/raw/master/zip/openvpn.zip)解压到OPENVPN的config文件夹中，需要确保解压出的文件与你的配置文件client.ovpn保存在同一目录中。
+#### 1. 下载[openvpn.zip](https://github.com/w2599/auto-add-routes/raw/master/zip/openvpn.zip)解压到OPENVPN的config文件夹中，需要确保解压出的文件与你的配置文件client.ovpn保存在同一目录中。
 
 假如你的配置文件不是client.ovpn而是abc.ovpn，你需要将client_pre.bat和client_down.bat分别改名为abc_pre.bat和abc_down.bat，否则OPENVPN无法自动调用批处理文件。
 
