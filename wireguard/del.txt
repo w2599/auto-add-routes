@@ -7083,6 +7083,7 @@ delete 202.38.128.0 mask 255.255.254.0 default METRIC default IF default
 delete 202.38.130.0 mask 255.255.254.0 default METRIC default IF default
 delete 202.38.132.0 mask 255.255.254.0 default METRIC default IF default
 delete 202.38.134.0 mask 255.255.255.0 default METRIC default IF default
+delete 202.38.135.0 mask 255.255.255.0 default METRIC default IF default
 delete 202.38.136.0 mask 255.255.254.0 default METRIC default IF default
 delete 202.38.138.0 mask 255.255.255.0 default METRIC default IF default
 delete 202.38.140.0 mask 255.255.252.0 default METRIC default IF default
