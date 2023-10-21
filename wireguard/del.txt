@@ -9418,6 +9418,8 @@ delete 223.212.0.0 mask 255.254.0.0 default METRIC default IF default
 delete 223.214.0.0 mask 255.254.0.0 default METRIC default IF default
 delete 223.220.0.0 mask 255.254.0.0 default METRIC default IF default
 delete 223.223.176.0 mask 255.255.240.0 default METRIC default IF default
+delete 223.223.176.0 mask 255.255.248.0 default METRIC default IF default
+delete 223.223.184.0 mask 255.255.248.0 default METRIC default IF default
 delete 223.223.192.0 mask 255.255.240.0 default METRIC default IF default
 delete 223.240.0.0 mask 255.248.0.0 default METRIC default IF default
 delete 223.248.0.0 mask 255.252.0.0 default METRIC default IF default
