@@ -12195,6 +12195,8 @@ add 61.29.232.0 mask 255.255.254.0 default METRIC default IF default
 add 61.29.235.0 mask 255.255.255.0 default METRIC default IF default
 add 61.29.236.0 mask 255.255.252.0 default METRIC default IF default
 add 61.29.240.0 mask 255.255.252.0 default METRIC default IF default
+add 61.29.241.0 mask 255.255.255.0 default METRIC default IF default
+add 61.29.242.0 mask 255.255.254.0 default METRIC default IF default
 add 61.29.245.0 mask 255.255.255.0 default METRIC default IF default
 add 61.29.246.0 mask 255.255.254.0 default METRIC default IF default
 add 61.29.248.0 mask 255.255.252.0 default METRIC default IF default
