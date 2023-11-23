@@ -10208,7 +10208,10 @@ delete 43.175.88.0 mask 255.255.248.0 default METRIC default IF default
 delete 43.175.96.0 mask 255.255.224.0 default METRIC default IF default
 delete 43.176.0.0 mask 255.240.0.0 default METRIC default IF default
 delete 43.192.0.0 mask 255.252.0.0 default METRIC default IF default
+delete 43.192.0.0 mask 255.254.0.0 default METRIC default IF default
 delete 43.192.100.0 mask 255.255.255.0 default METRIC default IF default
+delete 43.194.0.0 mask 255.255.0.0 default METRIC default IF default
+delete 43.195.0.0 mask 255.255.0.0 default METRIC default IF default
 delete 43.196.0.0 mask 255.254.0.0 default METRIC default IF default
 delete 43.224.100.0 mask 255.255.252.0 default METRIC default IF default
 delete 43.224.12.0 mask 255.255.252.0 default METRIC default IF default
