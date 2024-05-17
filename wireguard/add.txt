@@ -6616,6 +6616,8 @@ add 160.19.212.0 mask 255.255.252.0 default METRIC default IF default
 add 160.19.216.0 mask 255.255.252.0 default METRIC default IF default
 add 160.19.76.0 mask 255.255.254.0 default METRIC default IF default
 add 160.19.82.0 mask 255.255.254.0 default METRIC default IF default
+add 160.20.16.0 mask 255.255.254.0 default METRIC default IF default
+add 160.20.18.0 mask 255.255.254.0 default METRIC default IF default
 add 160.20.48.0 mask 255.255.252.0 default METRIC default IF default
 add 160.202.148.0 mask 255.255.252.0 default METRIC default IF default
 add 160.202.152.0 mask 255.255.252.0 default METRIC default IF default
