@@ -6481,6 +6481,7 @@ add 153.3.0.0 mask 255.255.0.0 default METRIC default IF default
 add 153.34.0.0 mask 255.254.0.0 default METRIC default IF default
 add 153.36.0.0 mask 255.254.0.0 default METRIC default IF default
 add 153.99.0.0 mask 255.255.0.0 default METRIC default IF default
+add 154.30.140.0 mask 255.255.254.0 default METRIC default IF default
 add 154.8.128.0 mask 255.255.128.0 default METRIC default IF default
 add 155.126.176.0 mask 255.255.254.0 default METRIC default IF default
 add 156.107.160.0 mask 255.255.255.0 default METRIC default IF default
