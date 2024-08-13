@@ -3642,7 +3642,6 @@ add 103.68.192.0 mask 255.255.252.0 default METRIC default IF default
 add 103.68.64.0 mask 255.255.252.0 default METRIC default IF default
 add 103.68.88.0 mask 255.255.252.0 default METRIC default IF default
 add 103.69.116.0 mask 255.255.252.0 default METRIC default IF default
-add 103.69.132.0 mask 255.255.252.0 default METRIC default IF default
 add 103.69.16.0 mask 255.255.252.0 default METRIC default IF default
 add 103.69.16.0 mask 255.255.255.0 default METRIC default IF default
 add 103.69.62.0 mask 255.255.254.0 default METRIC default IF default
@@ -5160,7 +5159,6 @@ add 116.60.0.0 mask 255.252.0.0 default METRIC default IF default
 add 116.66.0.0 mask 255.255.128.0 default METRIC default IF default
 add 116.66.0.0 mask 255.255.192.0 default METRIC default IF default
 add 116.66.120.0 mask 255.255.252.0 default METRIC default IF default
-add 116.66.176.0 mask 255.255.252.0 default METRIC default IF default
 add 116.66.64.0 mask 255.255.224.0 default METRIC default IF default
 add 116.66.96.0 mask 255.255.240.0 default METRIC default IF default
 add 116.68.136.0 mask 255.255.248.0 default METRIC default IF default
