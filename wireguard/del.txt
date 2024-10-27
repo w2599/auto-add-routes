@@ -6577,6 +6577,7 @@ delete 160.19.216.0 mask 255.255.252.0 default METRIC default IF default
 delete 160.19.76.0 mask 255.255.254.0 default METRIC default IF default
 delete 160.19.82.0 mask 255.255.254.0 default METRIC default IF default
 delete 160.191.0.0 mask 255.255.254.0 default METRIC default IF default
+delete 160.191.104.0 mask 255.255.254.0 default METRIC default IF default
 delete 160.20.130.0 mask 255.255.254.0 default METRIC default IF default
 delete 160.20.16.0 mask 255.255.254.0 default METRIC default IF default
 delete 160.20.18.0 mask 255.255.254.0 default METRIC default IF default
