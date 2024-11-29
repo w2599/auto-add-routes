@@ -6672,11 +6672,14 @@ add 160.25.10.0 mask 255.255.254.0 default METRIC default IF default
 add 160.25.12.0 mask 255.255.254.0 default METRIC default IF default
 add 160.25.194.0 mask 255.255.254.0 default METRIC default IF default
 add 160.25.20.0 mask 255.255.254.0 default METRIC default IF default
+add 160.250.102.0 mask 255.255.254.0 default METRIC default IF default
+add 160.250.104.0 mask 255.255.254.0 default METRIC default IF default
 add 160.250.14.0 mask 255.255.254.0 default METRIC default IF default
 add 160.250.16.0 mask 255.255.254.0 default METRIC default IF default
 add 160.250.18.0 mask 255.255.254.0 default METRIC default IF default
 add 160.250.24.0 mask 255.255.254.0 default METRIC default IF default
 add 160.250.84.0 mask 255.255.254.0 default METRIC default IF default
+add 160.250.90.0 mask 255.255.254.0 default METRIC default IF default
 add 160.30.148.0 mask 255.255.254.0 default METRIC default IF default
 add 160.30.150.0 mask 255.255.254.0 default METRIC default IF default
 add 160.30.194.0 mask 255.255.254.0 default METRIC default IF default
@@ -6770,6 +6773,7 @@ add 168.160.0.0 mask 255.255.0.0 default METRIC default IF default
 add 17.127.128.0 mask 255.255.254.0 default METRIC default IF default
 add 17.127.130.0 mask 255.255.255.0 default METRIC default IF default
 add 17.235.160.0 mask 255.255.240.0 default METRIC default IF default
+add 17.81.161.0 mask 255.255.255.0 default METRIC default IF default
 add 17.81.251.30 mask 255.255.255.254 default METRIC default IF default
 add 17.85.164.128 mask 255.255.255.128 default METRIC default IF default
 add 17.85.192.0 mask 255.255.240.0 default METRIC default IF default
@@ -10527,6 +10531,7 @@ add 43.229.176.0 mask 255.255.240.0 default METRIC default IF default
 add 43.229.176.0 mask 255.255.252.0 default METRIC default IF default
 add 43.229.180.0 mask 255.255.252.0 default METRIC default IF default
 add 43.229.184.0 mask 255.255.252.0 default METRIC default IF default
+add 43.229.184.0 mask 255.255.255.0 default METRIC default IF default
 add 43.229.188.0 mask 255.255.252.0 default METRIC default IF default
 add 43.229.192.0 mask 255.255.248.0 default METRIC default IF default
 add 43.229.192.0 mask 255.255.252.0 default METRIC default IF default
