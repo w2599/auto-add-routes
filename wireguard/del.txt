@@ -629,7 +629,6 @@ delete 103.133.136.0 mask 255.255.252.0 default METRIC default IF default
 delete 103.133.176.0 mask 255.255.252.0 default METRIC default IF default
 delete 103.133.232.0 mask 255.255.252.0 default METRIC default IF default
 delete 103.133.40.0 mask 255.255.252.0 default METRIC default IF default
-delete 103.134.12.0 mask 255.255.255.0 default METRIC default IF default
 delete 103.134.196.0 mask 255.255.252.0 default METRIC default IF default
 delete 103.134.232.0 mask 255.255.254.0 default METRIC default IF default
 delete 103.135.124.0 mask 255.255.252.0 default METRIC default IF default
